@@ -110,9 +110,9 @@ The `CollateralAccount` stores data related to the user's collateral and loan:
 - **InsufficientCollateralRemaining**: The remaining collateral is insufficient to back the loan.
 
 ## Future Enhancements
-- Integration with real-time oracles like Pyth or Switchboard for dynamic pricing of collateral.
-- Dynamic interest rates based on market conditions.
-- Support for multiple collateral types.
+- [x] **Support for multiple collateral types**: The program currently supports multiple types of collateral (e.g., gold, crypto) with different LTV ratios.
+- [x] **Dynamic interest rates based on market conditions**: The program supports both fixed and variable interest rates. Full real-time market-based rate adjustment can be added in future versions.
+- [ ] **Integration with real-time oracles**: Integration with Pyth or Switchboard for dynamic pricing of collateral is planned but not yet implemented.
 
 ## License 
 This project is under the **MIT LICENSE**
