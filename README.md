@@ -109,4 +109,14 @@ The `CollateralAccount` stores data related to the user's collateral and loan:
 - **InsufficientRepayment**: The repayment amount is insufficient to cover the loan and interest.
 - **InsufficientCollateralRemaining**: The remaining collateral is insufficient to back the loan.
 
+## Future Enhancements
+- Integration with real-time oracles like Pyth or Switchboard for dynamic pricing of collateral.
+- Dynamic interest rates based on market conditions.
+- Support for multiple collateral types.
+
+## License 
+This project is under the **MIT LICENSE**
+
+
+
 
