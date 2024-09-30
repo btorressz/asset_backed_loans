@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 use anchor_spl::token::{self, Mint, MintTo, Token, TokenAccount, Transfer};  
 use solana_program::sysvar::clock::Clock;
-// use pyth_client::{Price, PriceFeed}; // Pyth commented out
+// use pyth_client::{Price, PriceFeed}; // Pyth commented out for now
 
 declare_id!("GRbcvLa6oYsjh28iSkLaFff1pkjdtAc9ybNRronynnyc");
 
